@@ -1,0 +1,10 @@
+server:
+  servlet:
+    contextPath: /demo
+  port: 8080
+
+spring:
+  application:
+    name: demo
+
+
