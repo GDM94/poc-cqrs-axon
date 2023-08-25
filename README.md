@@ -1,18 +1,14 @@
-## Axon
+# POC CQRS WITH AXON
 
-This is a POC about CQRS and Event Sourcing using Axon framework 
+This is a POC about CQRS and Event Sourcing using Axon framework
 
-## Scripts
+## Notes
+- Axon support Event Store integration only with few DataBases. See the [documentation](https://docs.axoniq.io/reference-guide/axon-framework/events/event-bus-and-event-store) for details 
+- Custom implementation are needed for other database integrations
+- 
+## Dependencies
 
-Two scripts are included to easily start middleware using Docker matching the properties files:
-
-- `start_axon_server.sh` to start an Axon Server instance
-
-## Relevant Points
-
-- Event Store and Token Store need to be configured properly
-  - https://docs.axoniq.io/reference-guide/v/4.0/configuring-infrastructure-components/event-processing/event-bus-and-event-store
-  - https://docs.axoniq.io/reference-guide/v/4.0/configuring-infrastructure-components/event-processing/event-processors
+- Axon Server instance is needed to be used as Event Store. The script `start_axon_server.sh` is included to easily start middleware using Docker
 
 
 ### Relevant articles
