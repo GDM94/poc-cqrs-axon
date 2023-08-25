@@ -2,6 +2,9 @@
 
 This is a POC about CQRS and Event Sourcing using Axon framework
 
+## Links
+- This poc has been built starting from [this working example](https://github.com/eugenp/tutorials/tree/master/axon)
+
 ## Notes
 - Axon support Event Store integration only with few DataBases. See the [documentation](https://docs.axoniq.io/reference-guide/axon-framework/events/event-bus-and-event-store) for details 
 - Custom implementation are needed for other database integrations
